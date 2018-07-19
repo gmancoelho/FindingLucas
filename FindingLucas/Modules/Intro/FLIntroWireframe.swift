@@ -36,11 +36,10 @@ final class FLIntroWireframe: BaseWireframe {
   
   // MARK: - Private Routing
   
-  private func goToLogin() {
-    
-    
+  private func goToCharSelection() {
+    let charModule = FLCharSelectionWireframe(navigationController: navigationController)
+    charModule.show(with: .push)
   }
-  
 
 }
 
@@ -51,8 +50,8 @@ extension FLIntroWireframe: FLIntroWireframeInterface {
   func navigate(to option: FLIntroNavigationOption) {
     switch option {
       
-    case .goToLogin:
-      goToLogin()
+    case .goToCharSelection:
+      goToCharSelection()
       
     }
   }

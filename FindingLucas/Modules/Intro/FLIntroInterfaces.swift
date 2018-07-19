@@ -11,7 +11,7 @@ import UIKit
 
 enum FLIntroNavigationOption {
   
-  case goToLogin
+  case goToCharSelection
 
 }
 

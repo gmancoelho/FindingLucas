@@ -132,7 +132,6 @@ class GameScene: SKScene {
     targetLocation = touch.location(in: self)
   }
   
-  
   override func update(_ currentTime: TimeInterval) {
     let position = car.position
     let column = landBackground.tileColumnIndex(fromPosition: position)
@@ -149,12 +148,12 @@ class GameScene: SKScene {
     
     let objectTile = objectsTileMap.tileDefinition(atColumn: column, row: row)
     
-    if let _ = objectTile?.userData?.value(forKey: "gascan") {
+    if objectTile?.userData?.value(forKey: "gascan") != nil {
       run(gascanSound)
       objectsTileMap.setTileGroup(nil, forColumn: column, row: row)
     }
     
-    if let _ = objectTile?.userData?.value(forKey: "duck") {
+    if objectTile?.userData?.value(forKey: "duck") != nil {
       run(duckSound)
       objectsTileMap.setTileGroup(nil, forColumn: column, row: row)
     }

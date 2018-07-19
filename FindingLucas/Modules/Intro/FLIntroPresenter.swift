@@ -21,7 +21,6 @@ final class FLIntroPresenter {
   
   // MARK: - Public properties
   
-  
   // MARK: - Lifecycle -
   
   init(wireframe: FLIntroWireframeInterface,
@@ -38,8 +37,6 @@ final class FLIntroPresenter {
 extension FLIntroPresenter: FLIntroPresenterInterface {
   
   // MARK: - Collection Methods
-  
-
   
   // MARK: - Wireframe Methods
   

@@ -284,4 +284,3 @@ class FLAlert: UIView, Modal {
     dismiss(animated: true)
   }
 }
-

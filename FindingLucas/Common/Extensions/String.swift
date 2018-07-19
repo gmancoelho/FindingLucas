@@ -521,7 +521,6 @@ extension String {
     return components(separatedBy: .whitespaces).joined()
   }
   
-  
   // MARK: - Bool
   func isValid(in range: NSRange, string: String) -> Bool {
     let newString = (self as NSString).replacingCharacters(in: range, with: string) as NSString
