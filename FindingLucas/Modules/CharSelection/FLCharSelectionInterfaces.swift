@@ -21,6 +21,3 @@ protocol FLCharSelectionViewInterface: ViewInterface {
 
 protocol FLCharSelectionPresenterInterface: PresenterInterface {
 }
-
-protocol FLCharSelectionInteractorInterface: InteractorInterface {
-}

@@ -15,17 +15,14 @@ final class FLCharSelectionPresenter {
   // MARK: - Private properties -
   
   private unowned let view: FLCharSelectionViewInterface
-  private let interactor: FLCharSelectionInteractorInterface
   private let wireframe: FLCharSelectionWireframeInterface
   
   // MARK: - Lifecycle -
   
   init(wireframe: FLCharSelectionWireframeInterface,
-       view: FLCharSelectionViewInterface,
-       interactor: FLCharSelectionInteractorInterface) {
+       view: FLCharSelectionViewInterface) {
     self.wireframe = wireframe
     self.view = view
-    self.interactor = interactor
   }
 }
 

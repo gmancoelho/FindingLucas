@@ -17,8 +17,7 @@ final class FLCharSelectionWireframe: BaseWireframe {
   
   func configureModule(with viewController: FLCharSelectionViewController) {
     
-    let interactor = FLCharSelectionInteractor()
-    let presenter = FLCharSelectionPresenter(wireframe: self, view: viewController, interactor: interactor)
+    let presenter = FLCharSelectionPresenter(wireframe: self, view: viewController)
     viewController.presenter = presenter
   }
   

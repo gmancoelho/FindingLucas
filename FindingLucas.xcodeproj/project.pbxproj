@@ -75,7 +75,6 @@
 		B9AEDCB321010C4D006D96AF /* FLCharSelectionInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCAD21010C4D006D96AF /* FLCharSelectionInterfaces.swift */; };
 		B9AEDCB421010C4D006D96AF /* FLCharSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCAE21010C4D006D96AF /* FLCharSelectionPresenter.swift */; };
 		B9AEDCB521010C4D006D96AF /* FLCharSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCAF21010C4D006D96AF /* FLCharSelectionViewController.swift */; };
-		B9AEDCB621010C4D006D96AF /* FLCharSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCB021010C4D006D96AF /* FLCharSelectionInteractor.swift */; };
 		B9AEDCB721010C4D006D96AF /* FLCharSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9AEDCB121010C4D006D96AF /* FLCharSelectionViewController.xib */; };
 		B9AEDCB821010C4D006D96AF /* FLCharSelectionWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCB221010C4D006D96AF /* FLCharSelectionWireframe.swift */; };
 /* End PBXBuildFile section */
@@ -152,7 +151,6 @@
 		B9AEDCAD21010C4D006D96AF /* FLCharSelectionInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionInterfaces.swift; sourceTree = "<group>"; };
 		B9AEDCAE21010C4D006D96AF /* FLCharSelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionPresenter.swift; sourceTree = "<group>"; };
 		B9AEDCAF21010C4D006D96AF /* FLCharSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionViewController.swift; sourceTree = "<group>"; };
-		B9AEDCB021010C4D006D96AF /* FLCharSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionInteractor.swift; sourceTree = "<group>"; };
 		B9AEDCB121010C4D006D96AF /* FLCharSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLCharSelectionViewController.xib; sourceTree = "<group>"; };
 		B9AEDCB221010C4D006D96AF /* FLCharSelectionWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionWireframe.swift; sourceTree = "<group>"; };
 		D358C89F773D240FE9A64BAA /* Pods_FindingLucas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindingLucas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,7 +417,6 @@
 				B9AEDCAD21010C4D006D96AF /* FLCharSelectionInterfaces.swift */,
 				B9AEDCAE21010C4D006D96AF /* FLCharSelectionPresenter.swift */,
 				B9AEDCAF21010C4D006D96AF /* FLCharSelectionViewController.swift */,
-				B9AEDCB021010C4D006D96AF /* FLCharSelectionInteractor.swift */,
 				B9AEDCB121010C4D006D96AF /* FLCharSelectionViewController.xib */,
 				B9AEDCB221010C4D006D96AF /* FLCharSelectionWireframe.swift */,
 			);
@@ -606,7 +603,6 @@
 				B99049D72101032E00D44187 /* ViewInterface.swift in Sources */,
 				B99049F82101055700D44187 /* FLFonts.swift in Sources */,
 				B9904A5B2101060500D44187 /* CGPoint.swift in Sources */,
-				B9AEDCB621010C4D006D96AF /* FLCharSelectionInteractor.swift in Sources */,
 				B9AEDCA821010C06006D96AF /* FLGameViewController.swift in Sources */,
 				B9904A512101060500D44187 /* Date.swift in Sources */,
 				B99049D82101032E00D44187 /* InteractorInterface.swift in Sources */,
