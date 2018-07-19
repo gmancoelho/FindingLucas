@@ -17,8 +17,7 @@ final class FLGameWireframe: BaseWireframe {
   
   func configureModule(with viewController: FLGameViewController) {
     
-    let interactor = FLGameInteractor()
-    let presenter = FLGamePresenter(wireframe: self, view: viewController, interactor: interactor)
+    let presenter = FLGamePresenter(wireframe: self, view: viewController)
     viewController.presenter = presenter
   }
   

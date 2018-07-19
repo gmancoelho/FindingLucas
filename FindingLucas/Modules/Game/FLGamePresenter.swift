@@ -15,17 +15,14 @@ final class FLGamePresenter {
   // MARK: - Private properties -
   
   private unowned let view: FLGameViewInterface
-  private let interactor: FLGameInteractorInterface
   private let wireframe: FLGameWireframeInterface
   
   // MARK: - Lifecycle -
   
   init(wireframe: FLGameWireframeInterface,
-       view: FLGameViewInterface,
-       interactor: FLGameInteractorInterface) {
+       view: FLGameViewInterface) {
     self.wireframe = wireframe
     self.view = view
-    self.interactor = interactor
   }
 }
 

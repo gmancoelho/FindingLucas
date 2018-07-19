@@ -69,7 +69,6 @@
 		B9AEDCA621010C06006D96AF /* FLGameInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCA021010C06006D96AF /* FLGameInterfaces.swift */; };
 		B9AEDCA721010C06006D96AF /* FLGamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCA121010C06006D96AF /* FLGamePresenter.swift */; };
 		B9AEDCA821010C06006D96AF /* FLGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCA221010C06006D96AF /* FLGameViewController.swift */; };
-		B9AEDCA921010C06006D96AF /* FLGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCA321010C06006D96AF /* FLGameInteractor.swift */; };
 		B9AEDCAA21010C06006D96AF /* FLGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9AEDCA421010C06006D96AF /* FLGameViewController.xib */; };
 		B9AEDCAB21010C06006D96AF /* FLGameWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCA521010C06006D96AF /* FLGameWireframe.swift */; };
 		B9AEDCB321010C4D006D96AF /* FLCharSelectionInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEDCAD21010C4D006D96AF /* FLCharSelectionInterfaces.swift */; };
@@ -145,7 +144,6 @@
 		B9AEDCA021010C06006D96AF /* FLGameInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLGameInterfaces.swift; sourceTree = "<group>"; };
 		B9AEDCA121010C06006D96AF /* FLGamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLGamePresenter.swift; sourceTree = "<group>"; };
 		B9AEDCA221010C06006D96AF /* FLGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLGameViewController.swift; sourceTree = "<group>"; };
-		B9AEDCA321010C06006D96AF /* FLGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLGameInteractor.swift; sourceTree = "<group>"; };
 		B9AEDCA421010C06006D96AF /* FLGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLGameViewController.xib; sourceTree = "<group>"; };
 		B9AEDCA521010C06006D96AF /* FLGameWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLGameWireframe.swift; sourceTree = "<group>"; };
 		B9AEDCAD21010C4D006D96AF /* FLCharSelectionInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLCharSelectionInterfaces.swift; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 				B9AEDCA021010C06006D96AF /* FLGameInterfaces.swift */,
 				B9AEDCA121010C06006D96AF /* FLGamePresenter.swift */,
 				B9AEDCA221010C06006D96AF /* FLGameViewController.swift */,
-				B9AEDCA321010C06006D96AF /* FLGameInteractor.swift */,
 				B9AEDCA421010C06006D96AF /* FLGameViewController.xib */,
 				B9AEDCA521010C06006D96AF /* FLGameWireframe.swift */,
 			);
@@ -593,7 +590,6 @@
 				B99049C72101018000D44187 /* FLBaseRouter.swift in Sources */,
 				B99049EE2101051100D44187 /* FLBlueButton.swift in Sources */,
 				B990498B2100F96A00D44187 /* AppDelegate.swift in Sources */,
-				B9AEDCA921010C06006D96AF /* FLGameInteractor.swift in Sources */,
 				B99049CD210102E800D44187 /* FLIntroInterfaces.swift in Sources */,
 				B9904A612101060500D44187 /* CGRect.swift in Sources */,
 				B99049CF210102E800D44187 /* FLIntroWireframe.swift in Sources */,

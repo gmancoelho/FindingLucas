@@ -21,6 +21,3 @@ protocol FLGameViewInterface: ViewInterface {
 
 protocol FLGamePresenterInterface: PresenterInterface {
 }
-
-protocol FLGameInteractorInterface: InteractorInterface {
-}
