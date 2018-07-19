@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLCharSelectionViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLCharSelectionViewController" customModule="FindingLucas" customModuleProvider="target">
             <connections>
+                <outlet property="btnStart" destination="YmU-4N-Bf3" id="J1E-Sj-g3l"/>
+                <outlet property="carousel" destination="EqP-3E-kSH" id="0a6-TX-agF"/>
+                <outlet property="lblCharDesc" destination="EFw-e2-QeU" id="tAh-3i-zgT"/>
+                <outlet property="lblTitl" destination="bEd-Qi-mlN" id="c6S-Dh-MEs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,7 +27,51 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha seu personagem:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEd-Qi-mlN">
+                    <rect key="frame" x="59.5" y="45" width="256" height="25"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EqP-3E-kSH">
+                    <rect key="frame" x="37.5" y="100" width="300" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="kfN-WE-7kl"/>
+                        <constraint firstAttribute="width" constant="300" id="nRf-c9-2Ah"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFw-e2-QeU">
+                    <rect key="frame" x="37.5" y="425" width="300" height="73.5"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmU-4N-Bf3" customClass="FLBlueBorderButton" customModule="FindingLucas" customModuleProvider="target">
+                    <rect key="frame" x="52.5" y="602" width="270" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="1iT-XH-F9I"/>
+                        <constraint firstAttribute="width" constant="270" id="FDt-CG-wiX"/>
+                    </constraints>
+                    <state key="normal" title="Começar"/>
+                    <connections>
+                        <action selector="startIsPressed:" destination="-1" eventType="touchUpInside" id="mKQ-6v-kDs"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EFw-e2-QeU" firstAttribute="top" secondItem="EqP-3E-kSH" secondAttribute="bottom" constant="25" id="D9g-u8-PEO"/>
+                <constraint firstAttribute="bottom" secondItem="YmU-4N-Bf3" secondAttribute="bottom" constant="20" id="EFf-zT-JvB"/>
+                <constraint firstItem="EFw-e2-QeU" firstAttribute="width" secondItem="EqP-3E-kSH" secondAttribute="width" id="EnM-0N-EHh"/>
+                <constraint firstItem="bEd-Qi-mlN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JE9-WM-ly9"/>
+                <constraint firstItem="EqP-3E-kSH" firstAttribute="top" secondItem="bEd-Qi-mlN" secondAttribute="bottom" constant="30" id="Qhb-YT-Yzf"/>
+                <constraint firstItem="bEd-Qi-mlN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="YSa-1j-iXg"/>
+                <constraint firstItem="YmU-4N-Bf3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fRL-RS-D9x"/>
+                <constraint firstItem="EqP-3E-kSH" firstAttribute="centerX" secondItem="bEd-Qi-mlN" secondAttribute="centerX" id="jIt-kd-3Yg"/>
+                <constraint firstItem="EFw-e2-QeU" firstAttribute="centerX" secondItem="EqP-3E-kSH" secondAttribute="centerX" id="kcL-fi-cO4"/>
+            </constraints>
         </view>
     </objects>
 </document>

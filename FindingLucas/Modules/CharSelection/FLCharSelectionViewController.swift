@@ -12,6 +12,11 @@ final class FLCharSelectionViewController: UIViewController {
   
   // MARK: - Outlets
   
+  @IBOutlet weak var lblTitl: UILabel!
+  @IBOutlet weak var lblCharDesc: UILabel!
+  
+  @IBOutlet weak var btnStart: FLBlueBorderButton!
+  
   // MARK: - Class properties
   
   // MARK: - Public properties
@@ -58,8 +63,12 @@ final class FLCharSelectionViewController: UIViewController {
   
   // MARK: - Class Methods
   
+  
   // MARK: - UIActions
   
+  @IBAction func startIsPressed(_ sender: Any) {
+    
+  }
 }
 
 // MARK: - Extensions

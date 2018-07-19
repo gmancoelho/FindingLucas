@@ -320,6 +320,7 @@
 		B99049D92101045300D44187 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B9AEDCB9210115AD006D96AF /* Frameworks */,
 				B9904A3C2101060500D44187 /* Extensions */,
 				B99049F02101055700D44187 /* Constants */,
 				B99049DF2101051100D44187 /* UIButtons */,
@@ -418,6 +419,13 @@
 				B9AEDCB221010C4D006D96AF /* FLCharSelectionWireframe.swift */,
 			);
 			path = CharSelection;
+			sourceTree = "<group>";
+		};
+		B9AEDCB9210115AD006D96AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		BD62B17A4DA695F143ABFC51 /* Pods */ = {

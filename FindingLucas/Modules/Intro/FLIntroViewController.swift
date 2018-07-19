@@ -11,7 +11,11 @@ import UIKit
 class FLIntroViewController: UIViewController {
   
   // MARK: - Outlets
+  @IBOutlet weak var imgLucas: UIImageView!
+  @IBOutlet weak var lblTitle1: UILabel!
+  @IBOutlet weak var lblTitle2: UILabel!
   
+  @IBOutlet weak var btnStart: FLBlueBorderButton!
   // MARK: - Class Properties
   
   weak var presenter:FLIntroPresenterInterface!
@@ -57,6 +61,8 @@ class FLIntroViewController: UIViewController {
   
   // MARK: - Actions
   
+  @IBAction func startIsPressed(_ sender: Any) {
+  }
 }
 
 extension FLIntroViewController: FLIntroViewInterface {
