@@ -11,7 +11,6 @@
 		B990498F2100F96A00D44187 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B990498E2100F96A00D44187 /* Actions.sks */; };
 		B99049912100F96A00D44187 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049902100F96A00D44187 /* GameScene.swift */; };
 		B99049932100F96A00D44187 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049922100F96A00D44187 /* GameViewController.swift */; };
-		B99049962100F96A00D44187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99049942100F96A00D44187 /* Main.storyboard */; };
 		B99049982100F97000D44187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99049972100F97000D44187 /* Assets.xcassets */; };
 		B990499B2100F97000D44187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99049992100F97000D44187 /* LaunchScreen.storyboard */; };
 		B99049AA2100FA5800D44187 /* Tiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B99049A82100FA5800D44187 /* Tiles.sks */; };
@@ -19,6 +18,54 @@
 		B99049AD2100FA5F00D44187 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B99049AC2100FA5E00D44187 /* GameScene.sks */; };
 		B99049AF2100FA8000D44187 /* Duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = B99049AE2100FA8000D44187 /* Duck.wav */; };
 		B99049B12100FA9900D44187 /* Gas.wav in Resources */ = {isa = PBXBuildFile; fileRef = B99049B02100FA9900D44187 /* Gas.wav */; };
+		B99049C32100FF8600D44187 /* FLIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049C12100FF8600D44187 /* FLIntroViewController.swift */; };
+		B99049C42100FF8600D44187 /* FLIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99049C22100FF8600D44187 /* FLIntroViewController.xib */; };
+		B99049C72101018000D44187 /* FLBaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049C62101018000D44187 /* FLBaseRouter.swift */; };
+		B99049C92101018900D44187 /* FLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049C82101018800D44187 /* FLNavigationController.swift */; };
+		B99049CD210102E800D44187 /* FLIntroInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049CA210102E800D44187 /* FLIntroInterfaces.swift */; };
+		B99049CE210102E800D44187 /* FLIntroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049CB210102E800D44187 /* FLIntroPresenter.swift */; };
+		B99049CF210102E800D44187 /* FLIntroWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049CC210102E800D44187 /* FLIntroWireframe.swift */; };
+		B99049D52101032E00D44187 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049D12101032E00D44187 /* BaseWireframe.swift */; };
+		B99049D62101032E00D44187 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049D22101032E00D44187 /* PresenterInterface.swift */; };
+		B99049D72101032E00D44187 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049D32101032E00D44187 /* ViewInterface.swift */; };
+		B99049D82101032E00D44187 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049D42101032E00D44187 /* InteractorInterface.swift */; };
+		B99049DC2101046900D44187 /* FLModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049DB2101046900D44187 /* FLModal.swift */; };
+		B99049DE210104B800D44187 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049DD210104B800D44187 /* Modal.swift */; };
+		B99049EA2101051100D44187 /* FLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049E22101051100D44187 /* FLButton.swift */; };
+		B99049EE2101051100D44187 /* FLBlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049E62101051100D44187 /* FLBlueButton.swift */; };
+		B99049EF2101051100D44187 /* FLBlueBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049E72101051100D44187 /* FLBlueBorderButton.swift */; };
+		B99049F52101055700D44187 /* BSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049F12101055700D44187 /* BSConstants.swift */; };
+		B99049F62101055700D44187 /* FLColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049F22101055700D44187 /* FLColors.swift */; };
+		B99049F82101055700D44187 /* FLFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049F42101055700D44187 /* FLFonts.swift */; };
+		B9904A2A210105B900D44187 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0A210105B900D44187 /* Montserrat-LightItalic.ttf */; };
+		B9904A2B210105B900D44187 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0B210105B900D44187 /* Montserrat-Medium.ttf */; };
+		B9904A2C210105B900D44187 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0C210105B900D44187 /* Montserrat-BoldItalic.ttf */; };
+		B9904A2D210105B900D44187 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0D210105B900D44187 /* Montserrat-Light.ttf */; };
+		B9904A2E210105B900D44187 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0E210105B900D44187 /* Montserrat-ThinItalic.ttf */; };
+		B9904A2F210105B900D44187 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A0F210105B900D44187 /* Montserrat-ExtraLight.ttf */; };
+		B9904A30210105B900D44187 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A10210105B900D44187 /* Montserrat-Thin.ttf */; };
+		B9904A31210105B900D44187 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A11210105B900D44187 /* Montserrat-Bold.ttf */; };
+		B9904A32210105B900D44187 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A12210105B900D44187 /* Montserrat-MediumItalic.ttf */; };
+		B9904A33210105B900D44187 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A13210105B900D44187 /* Montserrat-BlackItalic.ttf */; };
+		B9904A34210105B900D44187 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A14210105B900D44187 /* Montserrat-SemiBold.ttf */; };
+		B9904A35210105B900D44187 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A15210105B900D44187 /* Montserrat-ExtraLightItalic.ttf */; };
+		B9904A36210105B900D44187 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A16210105B900D44187 /* Montserrat-ExtraBold.ttf */; };
+		B9904A37210105B900D44187 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A17210105B900D44187 /* Montserrat-Black.ttf */; };
+		B9904A38210105B900D44187 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A18210105B900D44187 /* Montserrat-Regular.ttf */; };
+		B9904A39210105B900D44187 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A19210105B900D44187 /* Montserrat-Italic.ttf */; };
+		B9904A3A210105B900D44187 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A1A210105B900D44187 /* Montserrat-SemiBoldItalic.ttf */; };
+		B9904A3B210105B900D44187 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9904A1B210105B900D44187 /* Montserrat-ExtraBoldItalic.ttf */; };
+		B9904A512101060500D44187 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A3D2101060500D44187 /* Date.swift */; };
+		B9904A522101060500D44187 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A3E2101060500D44187 /* UIView.swift */; };
+		B9904A542101060500D44187 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A402101060500D44187 /* UIColor.swift */; };
+		B9904A562101060500D44187 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A422101060500D44187 /* CGSize.swift */; };
+		B9904A5A2101060500D44187 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A462101060500D44187 /* String.swift */; };
+		B9904A5B2101060500D44187 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A472101060500D44187 /* CGPoint.swift */; };
+		B9904A5D2101060500D44187 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A492101060500D44187 /* UIButton.swift */; };
+		B9904A5E2101060500D44187 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A4A2101060500D44187 /* UIImage.swift */; };
+		B9904A5F2101060500D44187 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A4B2101060500D44187 /* UIViewController.swift */; };
+		B9904A602101060500D44187 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A4C2101060500D44187 /* Double.swift */; };
+		B9904A612101060500D44187 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9904A4D2101060500D44187 /* CGRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +74,6 @@
 		B990498E2100F96A00D44187 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B99049902100F96A00D44187 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B99049922100F96A00D44187 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		B99049952100F96A00D44187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B99049972100F97000D44187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B990499A2100F97000D44187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B990499C2100F97000D44187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +82,54 @@
 		B99049AC2100FA5E00D44187 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../../RDRescue-Finished/RDRescue/RDRescue/GameScene.sks"; sourceTree = "<group>"; };
 		B99049AE2100FA8000D44187 /* Duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Duck.wav; sourceTree = "<group>"; };
 		B99049B02100FA9900D44187 /* Gas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gas.wav; sourceTree = "<group>"; };
+		B99049C12100FF8600D44187 /* FLIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLIntroViewController.swift; sourceTree = "<group>"; };
+		B99049C22100FF8600D44187 /* FLIntroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLIntroViewController.xib; sourceTree = "<group>"; };
+		B99049C62101018000D44187 /* FLBaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLBaseRouter.swift; sourceTree = "<group>"; };
+		B99049C82101018800D44187 /* FLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLNavigationController.swift; sourceTree = "<group>"; };
+		B99049CA210102E800D44187 /* FLIntroInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLIntroInterfaces.swift; sourceTree = "<group>"; };
+		B99049CB210102E800D44187 /* FLIntroPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLIntroPresenter.swift; sourceTree = "<group>"; };
+		B99049CC210102E800D44187 /* FLIntroWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLIntroWireframe.swift; sourceTree = "<group>"; };
+		B99049D12101032E00D44187 /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		B99049D22101032E00D44187 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		B99049D32101032E00D44187 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		B99049D42101032E00D44187 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		B99049DB2101046900D44187 /* FLModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLModal.swift; sourceTree = "<group>"; };
+		B99049DD210104B800D44187 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		B99049E22101051100D44187 /* FLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLButton.swift; sourceTree = "<group>"; };
+		B99049E62101051100D44187 /* FLBlueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLBlueButton.swift; sourceTree = "<group>"; };
+		B99049E72101051100D44187 /* FLBlueBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLBlueBorderButton.swift; sourceTree = "<group>"; };
+		B99049F12101055700D44187 /* BSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSConstants.swift; sourceTree = "<group>"; };
+		B99049F22101055700D44187 /* FLColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLColors.swift; sourceTree = "<group>"; };
+		B99049F42101055700D44187 /* FLFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLFonts.swift; sourceTree = "<group>"; };
+		B9904A0A210105B900D44187 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		B9904A0B210105B900D44187 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B9904A0C210105B900D44187 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B9904A0D210105B900D44187 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B9904A0E210105B900D44187 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B9904A0F210105B900D44187 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B9904A10210105B900D44187 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B9904A11210105B900D44187 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B9904A12210105B900D44187 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B9904A13210105B900D44187 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B9904A14210105B900D44187 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9904A15210105B900D44187 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B9904A16210105B900D44187 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B9904A17210105B900D44187 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B9904A18210105B900D44187 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B9904A19210105B900D44187 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		B9904A1A210105B900D44187 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9904A1B210105B900D44187 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9904A3D2101060500D44187 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B9904A3E2101060500D44187 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B9904A402101060500D44187 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B9904A422101060500D44187 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		B9904A462101060500D44187 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B9904A472101060500D44187 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		B9904A492101060500D44187 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B9904A4A2101060500D44187 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B9904A4B2101060500D44187 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B9904A4C2101060500D44187 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		B9904A4D2101060500D44187 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +164,8 @@
 			children = (
 				B99049A42100F9CA00D44187 /* Properties */,
 				B99049A32100F9C200D44187 /* Infra */,
+				B99049D92101045300D44187 /* Common */,
+				B99049C52101015300D44187 /* Navigation */,
 				B99049A72100FA0000D44187 /* Modules */,
 				B99049B22100FC1A00D44187 /* GameScene */,
 				B99049A62100F9E400D44187 /* SpriteScene */,
@@ -82,6 +178,7 @@
 		B99049A22100F9BA00D44187 /* Assests */ = {
 			isa = PBXGroup;
 			children = (
+				B99049F9210105B900D44187 /* Fonts */,
 				B99049AE2100FA8000D44187 /* Duck.wav */,
 				B99049B02100FA9900D44187 /* Gas.wav */,
 				B99049972100F97000D44187 /* Assets.xcassets */,
@@ -93,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				B990498A2100F96A00D44187 /* AppDelegate.swift */,
+				B99049D02101032E00D44187 /* VIPER */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -108,7 +206,6 @@
 		B99049A52100F9DA00D44187 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B99049942100F96A00D44187 /* Main.storyboard */,
 				B99049992100F97000D44187 /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -153,8 +250,124 @@
 		B99049B42100FC3100D44187 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				B99049CA210102E800D44187 /* FLIntroInterfaces.swift */,
+				B99049CB210102E800D44187 /* FLIntroPresenter.swift */,
+				B99049CC210102E800D44187 /* FLIntroWireframe.swift */,
+				B99049C12100FF8600D44187 /* FLIntroViewController.swift */,
+				B99049C22100FF8600D44187 /* FLIntroViewController.xib */,
 			);
 			path = Intro;
+			sourceTree = "<group>";
+		};
+		B99049C52101015300D44187 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B99049C82101018800D44187 /* FLNavigationController.swift */,
+				B99049C62101018000D44187 /* FLBaseRouter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B99049D02101032E00D44187 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				B99049D12101032E00D44187 /* BaseWireframe.swift */,
+				B99049D22101032E00D44187 /* PresenterInterface.swift */,
+				B99049D32101032E00D44187 /* ViewInterface.swift */,
+				B99049D42101032E00D44187 /* InteractorInterface.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		B99049D92101045300D44187 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B9904A3C2101060500D44187 /* Extensions */,
+				B99049F02101055700D44187 /* Constants */,
+				B99049DF2101051100D44187 /* UIButtons */,
+				B99049DA2101045B00D44187 /* FLModal */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B99049DA2101045B00D44187 /* FLModal */ = {
+			isa = PBXGroup;
+			children = (
+				B99049DD210104B800D44187 /* Modal.swift */,
+				B99049DB2101046900D44187 /* FLModal.swift */,
+			);
+			path = FLModal;
+			sourceTree = "<group>";
+		};
+		B99049DF2101051100D44187 /* UIButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B99049E22101051100D44187 /* FLButton.swift */,
+				B99049E62101051100D44187 /* FLBlueButton.swift */,
+				B99049E72101051100D44187 /* FLBlueBorderButton.swift */,
+			);
+			path = UIButtons;
+			sourceTree = "<group>";
+		};
+		B99049F02101055700D44187 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B99049F12101055700D44187 /* BSConstants.swift */,
+				B99049F22101055700D44187 /* FLColors.swift */,
+				B99049F42101055700D44187 /* FLFonts.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B99049F9210105B900D44187 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9904A09210105B900D44187 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9904A09210105B900D44187 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				B9904A0A210105B900D44187 /* Montserrat-LightItalic.ttf */,
+				B9904A0B210105B900D44187 /* Montserrat-Medium.ttf */,
+				B9904A0C210105B900D44187 /* Montserrat-BoldItalic.ttf */,
+				B9904A0D210105B900D44187 /* Montserrat-Light.ttf */,
+				B9904A0E210105B900D44187 /* Montserrat-ThinItalic.ttf */,
+				B9904A0F210105B900D44187 /* Montserrat-ExtraLight.ttf */,
+				B9904A10210105B900D44187 /* Montserrat-Thin.ttf */,
+				B9904A11210105B900D44187 /* Montserrat-Bold.ttf */,
+				B9904A12210105B900D44187 /* Montserrat-MediumItalic.ttf */,
+				B9904A13210105B900D44187 /* Montserrat-BlackItalic.ttf */,
+				B9904A14210105B900D44187 /* Montserrat-SemiBold.ttf */,
+				B9904A15210105B900D44187 /* Montserrat-ExtraLightItalic.ttf */,
+				B9904A16210105B900D44187 /* Montserrat-ExtraBold.ttf */,
+				B9904A17210105B900D44187 /* Montserrat-Black.ttf */,
+				B9904A18210105B900D44187 /* Montserrat-Regular.ttf */,
+				B9904A19210105B900D44187 /* Montserrat-Italic.ttf */,
+				B9904A1A210105B900D44187 /* Montserrat-SemiBoldItalic.ttf */,
+				B9904A1B210105B900D44187 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		B9904A3C2101060500D44187 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9904A3D2101060500D44187 /* Date.swift */,
+				B9904A3E2101060500D44187 /* UIView.swift */,
+				B9904A402101060500D44187 /* UIColor.swift */,
+				B9904A422101060500D44187 /* CGSize.swift */,
+				B9904A462101060500D44187 /* String.swift */,
+				B9904A472101060500D44187 /* CGPoint.swift */,
+				B9904A492101060500D44187 /* UIButton.swift */,
+				B9904A4A2101060500D44187 /* UIImage.swift */,
+				B9904A4B2101060500D44187 /* UIViewController.swift */,
+				B9904A4C2101060500D44187 /* Double.swift */,
+				B9904A4D2101060500D44187 /* CGRect.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +380,7 @@
 				B99049832100F96A00D44187 /* Sources */,
 				B99049842100F96A00D44187 /* Frameworks */,
 				B99049852100F96A00D44187 /* Resources */,
+				B9904A652101091200D44187 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -183,6 +397,7 @@
 		B990497F2100F96A00D44187 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FL;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = DevForFun_Guilherme_Coelho;
@@ -215,42 +430,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9904A2C210105B900D44187 /* Montserrat-BoldItalic.ttf in Resources */,
+				B9904A2B210105B900D44187 /* Montserrat-Medium.ttf in Resources */,
+				B9904A33210105B900D44187 /* Montserrat-BlackItalic.ttf in Resources */,
 				B99049B12100FA9900D44187 /* Gas.wav in Resources */,
 				B99049AB2100FA5800D44187 /* ObjectTiles.sks in Resources */,
-				B99049962100F96A00D44187 /* Main.storyboard in Resources */,
 				B99049982100F97000D44187 /* Assets.xcassets in Resources */,
+				B9904A32210105B900D44187 /* Montserrat-MediumItalic.ttf in Resources */,
+				B9904A30210105B900D44187 /* Montserrat-Thin.ttf in Resources */,
+				B9904A2A210105B900D44187 /* Montserrat-LightItalic.ttf in Resources */,
+				B9904A37210105B900D44187 /* Montserrat-Black.ttf in Resources */,
 				B99049AF2100FA8000D44187 /* Duck.wav in Resources */,
+				B9904A3A210105B900D44187 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				B99049AD2100FA5F00D44187 /* GameScene.sks in Resources */,
+				B9904A2F210105B900D44187 /* Montserrat-ExtraLight.ttf in Resources */,
+				B9904A31210105B900D44187 /* Montserrat-Bold.ttf in Resources */,
+				B9904A39210105B900D44187 /* Montserrat-Italic.ttf in Resources */,
+				B99049C42100FF8600D44187 /* FLIntroViewController.xib in Resources */,
+				B9904A38210105B900D44187 /* Montserrat-Regular.ttf in Resources */,
+				B9904A3B210105B900D44187 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				B9904A36210105B900D44187 /* Montserrat-ExtraBold.ttf in Resources */,
+				B9904A2D210105B900D44187 /* Montserrat-Light.ttf in Resources */,
+				B9904A35210105B900D44187 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				B9904A2E210105B900D44187 /* Montserrat-ThinItalic.ttf in Resources */,
 				B99049AA2100FA5800D44187 /* Tiles.sks in Resources */,
 				B990499B2100F97000D44187 /* LaunchScreen.storyboard in Resources */,
+				B9904A34210105B900D44187 /* Montserrat-SemiBold.ttf in Resources */,
 				B990498F2100F96A00D44187 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B9904A652101091200D44187 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B99049832100F96A00D44187 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9904A602101060500D44187 /* Double.swift in Sources */,
+				B99049F62101055700D44187 /* FLColors.swift in Sources */,
+				B99049CE210102E800D44187 /* FLIntroPresenter.swift in Sources */,
+				B9904A5F2101060500D44187 /* UIViewController.swift in Sources */,
+				B99049DE210104B800D44187 /* Modal.swift in Sources */,
+				B9904A5A2101060500D44187 /* String.swift in Sources */,
+				B99049D52101032E00D44187 /* BaseWireframe.swift in Sources */,
+				B9904A5E2101060500D44187 /* UIImage.swift in Sources */,
+				B99049D62101032E00D44187 /* PresenterInterface.swift in Sources */,
+				B99049EF2101051100D44187 /* FLBlueBorderButton.swift in Sources */,
 				B99049912100F96A00D44187 /* GameScene.swift in Sources */,
+				B9904A562101060500D44187 /* CGSize.swift in Sources */,
+				B9904A522101060500D44187 /* UIView.swift in Sources */,
 				B99049932100F96A00D44187 /* GameViewController.swift in Sources */,
+				B99049EA2101051100D44187 /* FLButton.swift in Sources */,
+				B9904A5D2101060500D44187 /* UIButton.swift in Sources */,
+				B99049F52101055700D44187 /* BSConstants.swift in Sources */,
+				B99049C92101018900D44187 /* FLNavigationController.swift in Sources */,
+				B99049DC2101046900D44187 /* FLModal.swift in Sources */,
+				B99049C72101018000D44187 /* FLBaseRouter.swift in Sources */,
+				B99049EE2101051100D44187 /* FLBlueButton.swift in Sources */,
 				B990498B2100F96A00D44187 /* AppDelegate.swift in Sources */,
+				B99049CD210102E800D44187 /* FLIntroInterfaces.swift in Sources */,
+				B9904A612101060500D44187 /* CGRect.swift in Sources */,
+				B99049CF210102E800D44187 /* FLIntroWireframe.swift in Sources */,
+				B9904A542101060500D44187 /* UIColor.swift in Sources */,
+				B99049D72101032E00D44187 /* ViewInterface.swift in Sources */,
+				B99049F82101055700D44187 /* FLFonts.swift in Sources */,
+				B9904A5B2101060500D44187 /* CGPoint.swift in Sources */,
+				B9904A512101060500D44187 /* Date.swift in Sources */,
+				B99049D82101032E00D44187 /* InteractorInterface.swift in Sources */,
+				B99049C32100FF8600D44187 /* FLIntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B99049942100F96A00D44187 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B99049952100F96A00D44187 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B99049992100F97000D44187 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -313,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -368,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -391,7 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DevForFun.FindingLucas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -409,7 +684,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DevForFun.FindingLucas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

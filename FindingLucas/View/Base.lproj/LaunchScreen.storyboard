@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +16,54 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0j-Sv-uaE">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fR-ir-mDb">
+                                        <rect key="frame" x="75" y="291" width="225" height="65"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Finding Lucas" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vNT-FF-1lJ">
+                                                <rect key="frame" x="32.5" y="16.5" width="160" height="32"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="vNT-FF-1lJ" firstAttribute="centerY" secondItem="8fR-ir-mDb" secondAttribute="centerY" id="mUb-bV-haG"/>
+                                            <constraint firstItem="vNT-FF-1lJ" firstAttribute="centerX" secondItem="8fR-ir-mDb" secondAttribute="centerX" id="tdM-o6-mxY"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="A CrocComp game." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0cX-r0-esT">
+                                        <rect key="frame" x="126" y="619" width="123" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="PK4-u1-ddG"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8fR-ir-mDb" firstAttribute="width" secondItem="Z0j-Sv-uaE" secondAttribute="width" multiplier="0.6" id="5nx-Hm-qOU"/>
+                                    <constraint firstItem="8fR-ir-mDb" firstAttribute="height" secondItem="Z0j-Sv-uaE" secondAttribute="height" multiplier="0.1" id="KHb-aE-EAh"/>
+                                    <constraint firstItem="8fR-ir-mDb" firstAttribute="centerX" secondItem="Z0j-Sv-uaE" secondAttribute="centerX" id="SdV-Ga-4w1"/>
+                                    <constraint firstItem="0cX-r0-esT" firstAttribute="centerX" secondItem="Z0j-Sv-uaE" secondAttribute="centerX" id="afG-Ui-s7e"/>
+                                    <constraint firstAttribute="bottom" secondItem="0cX-r0-esT" secondAttribute="bottom" constant="8" id="nys-4E-rRt"/>
+                                    <constraint firstItem="8fR-ir-mDb" firstAttribute="centerY" secondItem="Z0j-Sv-uaE" secondAttribute="centerY" id="pkb-cr-dVw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z0j-Sv-uaE" secondAttribute="trailing" id="4KT-EJ-Mqu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z0j-Sv-uaE" secondAttribute="bottom" id="FSb-qh-xMa"/>
+                            <constraint firstItem="Z0j-Sv-uaE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V0O-33-eh5"/>
+                            <constraint firstItem="Z0j-Sv-uaE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="s2f-os-dhj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

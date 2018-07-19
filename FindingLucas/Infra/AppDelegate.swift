@@ -11,10 +11,29 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
-  var window: UIWindow?
+  // MARK: - Class Properties
   
+  var window: UIWindow?
+  private var baseRouter: FLBaseRouter?
+
+  // MARK: - Class Methods
   
   private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    
+    initAppBaseRouter()
+
     return true
+  }
+  
+  // MARK: - Instance App Router -
+  
+  private func initAppBaseRouter() {
+    
+    if baseRouter == nil {
+      window = UIWindow(frame: UIScreen.main.bounds)
+      baseRouter = FLBaseRouter(window: self.window!)
+    }
+    
+    baseRouter?.initRouter()
   }
 }
