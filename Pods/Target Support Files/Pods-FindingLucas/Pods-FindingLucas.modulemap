@@ -1,0 +1,6 @@
+framework module Pods_FindingLucas {
+  umbrella header "Pods-FindingLucas-umbrella.h"
+
+  export *
+  module * { export * }
+}
