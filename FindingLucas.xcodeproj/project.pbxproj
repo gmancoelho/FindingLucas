@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B990498B2100F96A00D44187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990498A2100F96A00D44187 /* AppDelegate.swift */; };
+		B990498F2100F96A00D44187 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B990498E2100F96A00D44187 /* Actions.sks */; };
+		B99049912100F96A00D44187 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049902100F96A00D44187 /* GameScene.swift */; };
+		B99049932100F96A00D44187 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99049922100F96A00D44187 /* GameViewController.swift */; };
+		B99049962100F96A00D44187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99049942100F96A00D44187 /* Main.storyboard */; };
+		B99049982100F97000D44187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99049972100F97000D44187 /* Assets.xcassets */; };
+		B990499B2100F97000D44187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99049992100F97000D44187 /* LaunchScreen.storyboard */; };
+		B99049AA2100FA5800D44187 /* Tiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B99049A82100FA5800D44187 /* Tiles.sks */; };
+		B99049AB2100FA5800D44187 /* ObjectTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B99049A92100FA5800D44187 /* ObjectTiles.sks */; };
+		B99049AD2100FA5F00D44187 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B99049AC2100FA5E00D44187 /* GameScene.sks */; };
+		B99049AF2100FA8000D44187 /* Duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = B99049AE2100FA8000D44187 /* Duck.wav */; };
+		B99049B12100FA9900D44187 /* Gas.wav in Resources */ = {isa = PBXBuildFile; fileRef = B99049B02100FA9900D44187 /* Gas.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B99049872100F96A00D44187 /* FindingLucas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingLucas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B990498A2100F96A00D44187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B990498E2100F96A00D44187 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B99049902100F96A00D44187 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B99049922100F96A00D44187 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B99049952100F96A00D44187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B99049972100F97000D44187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B990499A2100F97000D44187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B990499C2100F97000D44187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99049A82100FA5800D44187 /* Tiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tiles.sks; sourceTree = "<group>"; };
+		B99049A92100FA5800D44187 /* ObjectTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ObjectTiles.sks; sourceTree = "<group>"; };
+		B99049AC2100FA5E00D44187 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../../RDRescue-Finished/RDRescue/RDRescue/GameScene.sks"; sourceTree = "<group>"; };
+		B99049AE2100FA8000D44187 /* Duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Duck.wav; sourceTree = "<group>"; };
+		B99049B02100FA9900D44187 /* Gas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gas.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B99049842100F96A00D44187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B990497E2100F96A00D44187 = {
+			isa = PBXGroup;
+			children = (
+				B99049892100F96A00D44187 /* FindingLucas */,
+				B99049882100F96A00D44187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B99049882100F96A00D44187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B99049872100F96A00D44187 /* FindingLucas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B99049892100F96A00D44187 /* FindingLucas */ = {
+			isa = PBXGroup;
+			children = (
+				B99049A42100F9CA00D44187 /* Properties */,
+				B99049A32100F9C200D44187 /* Infra */,
+				B99049A72100FA0000D44187 /* Modules */,
+				B99049B22100FC1A00D44187 /* GameScene */,
+				B99049A62100F9E400D44187 /* SpriteScene */,
+				B99049A52100F9DA00D44187 /* View */,
+				B99049A22100F9BA00D44187 /* Assests */,
+			);
+			path = FindingLucas;
+			sourceTree = "<group>";
+		};
+		B99049A22100F9BA00D44187 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				B99049AE2100FA8000D44187 /* Duck.wav */,
+				B99049B02100FA9900D44187 /* Gas.wav */,
+				B99049972100F97000D44187 /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		B99049A32100F9C200D44187 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				B990498A2100F96A00D44187 /* AppDelegate.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		B99049A42100F9CA00D44187 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				B990499C2100F97000D44187 /* Info.plist */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		B99049A52100F9DA00D44187 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B99049942100F96A00D44187 /* Main.storyboard */,
+				B99049992100F97000D44187 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B99049A62100F9E400D44187 /* SpriteScene */ = {
+			isa = PBXGroup;
+			children = (
+				B99049AC2100FA5E00D44187 /* GameScene.sks */,
+				B99049A92100FA5800D44187 /* ObjectTiles.sks */,
+				B99049A82100FA5800D44187 /* Tiles.sks */,
+				B990498E2100F96A00D44187 /* Actions.sks */,
+			);
+			path = SpriteScene;
+			sourceTree = "<group>";
+		};
+		B99049A72100FA0000D44187 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B99049B42100FC3100D44187 /* Intro */,
+				B99049B32100FC2900D44187 /* Game */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B99049B22100FC1A00D44187 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				B99049902100F96A00D44187 /* GameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		B99049B32100FC2900D44187 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B99049922100F96A00D44187 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		B99049B42100FC3100D44187 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B99049862100F96A00D44187 /* FindingLucas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B990499F2100F97000D44187 /* Build configuration list for PBXNativeTarget "FindingLucas" */;
+			buildPhases = (
+				B99049832100F96A00D44187 /* Sources */,
+				B99049842100F96A00D44187 /* Frameworks */,
+				B99049852100F96A00D44187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindingLucas;
+			productName = FindingLucas;
+			productReference = B99049872100F96A00D44187 /* FindingLucas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B990497F2100F96A00D44187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = DevForFun_Guilherme_Coelho;
+				TargetAttributes = {
+					B99049862100F96A00D44187 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B99049822100F96A00D44187 /* Build configuration list for PBXProject "FindingLucas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B990497E2100F96A00D44187;
+			productRefGroup = B99049882100F96A00D44187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B99049862100F96A00D44187 /* FindingLucas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B99049852100F96A00D44187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99049B12100FA9900D44187 /* Gas.wav in Resources */,
+				B99049AB2100FA5800D44187 /* ObjectTiles.sks in Resources */,
+				B99049962100F96A00D44187 /* Main.storyboard in Resources */,
+				B99049982100F97000D44187 /* Assets.xcassets in Resources */,
+				B99049AF2100FA8000D44187 /* Duck.wav in Resources */,
+				B99049AD2100FA5F00D44187 /* GameScene.sks in Resources */,
+				B99049AA2100FA5800D44187 /* Tiles.sks in Resources */,
+				B990499B2100F97000D44187 /* LaunchScreen.storyboard in Resources */,
+				B990498F2100F96A00D44187 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B99049832100F96A00D44187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99049912100F96A00D44187 /* GameScene.swift in Sources */,
+				B99049932100F96A00D44187 /* GameViewController.swift in Sources */,
+				B990498B2100F96A00D44187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B99049942100F96A00D44187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99049952100F96A00D44187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B99049992100F97000D44187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B990499A2100F97000D44187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B990499D2100F97000D44187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B990499E2100F97000D44187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B99049A02100F97000D44187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H47Q2RC6ZM;
+				INFOPLIST_FILE = "$(SRCROOT)/FindingLucas/Properties/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevForFun.FindingLucas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B99049A12100F97000D44187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H47Q2RC6ZM;
+				INFOPLIST_FILE = "$(SRCROOT)/FindingLucas/Properties/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevForFun.FindingLucas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B99049822100F96A00D44187 /* Build configuration list for PBXProject "FindingLucas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B990499D2100F97000D44187 /* Debug */,
+				B990499E2100F97000D44187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B990499F2100F97000D44187 /* Build configuration list for PBXNativeTarget "FindingLucas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99049A02100F97000D44187 /* Debug */,
+				B99049A12100F97000D44187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B990497F2100F96A00D44187 /* Project object */;
+}
